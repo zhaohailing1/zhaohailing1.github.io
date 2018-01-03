@@ -1,0 +1,179 @@
+html,body{
+    width:100%;
+    height:100%;
+    background: #e5e5e5 none no-repeat fixed center top;
+}
+#index{
+    margin:20px auto ;
+    background:#fff;
+    max-width:1300px;
+    border-radius:5px;
+    nav{
+        padding:20px 0;
+        background:#fff;
+        .navbar-header{
+            a{
+                font-size:32px;
+                color: #000;
+                img{
+                    width:25%;
+                    margin-right:10px;
+                }
+            }
+        }
+        .collapse{
+            .nav{
+                a{
+                    padding:10px 13px;
+                    white-space:nowrap;
+                }
+                .z-active{
+                    a{
+                        color:#f90;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .z-left{
+            margin-left:-10px;
+            .z-tab{
+                overflow:hidden;
+            }
+            ul{
+                margin:0;
+                padding:0;
+                li{
+                    list-style:none;
+                    margin:30px 0;
+                    padding-bottom:30px;
+                    .media{
+                        .z-img{
+                            padding:0;
+                            border-radius:5px;
+                            overflow:hidden;
+                            width:36%;
+                        }
+                        .z-text{
+                            padding-left:16px;
+                            h3{
+                                margin-bottom:10px;
+                            }
+                            p{
+                                height:130px;
+                            }
+                            a{
+                                text-decoration:none;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        .z-right{
+            margin-left:10px;
+            .z-input{
+                padding:15px 10px;
+                background:#eee;
+                margin-bottom:20px;
+                input{
+                    height:38px;
+                }
+                button{
+                    height:38px;
+                }
+            }
+            .author{
+                background:#eee;
+                .author-img{
+                    width:200px;
+                    height:200px;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                h3{
+                    margin:0;
+                    height:42px;
+                    line-height:42px;
+                    margin-bottom:10px;
+                }
+            }
+            .articles{
+                background:#eee;
+                .z-title{
+                    height:42px;
+                    line-height:26px;
+                    margin-bottom:16px;
+                    h3{
+                        margin:0;
+                    }
+                }
+                ul{
+                    margin:0;
+                    padding:0;
+                    li{
+                        list-style:none;
+                        max-width: 99.8%;
+                        margin-bottom: 10px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid rgb(229, 229, 229);
+                        .z-content{
+                            padding:0 10px;
+                            .z-img{
+                                width:56px;
+                                height:42px;
+                                overflow:hidden;
+                                img{
+                                    width:110%;
+                                }
+                            }
+                            .z-img2{
+                                width:50px;
+                                height:50px;
+                                overflow:hidden;
+                                img{
+                                    width:110%;
+                                    height:90%;
+                                }
+                            }
+                            .z-text{
+                                font-size:12px;
+                                h6{
+                                    font-weight:bold;
+                                    margin-bottom:8px;
+                                }
+                            }
+                        }
+                    }
+                    :nth-last-child(1){
+                        border-bottom:none;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        width:100%;
+        height:140px;
+        background: #474747 none repeat center top;
+        div{
+            width:100%;
+            height:106px;
+            line-height:106px;
+            text-align:center;
+            padding-top:16px;
+            span{
+                font-size:26px;
+                color:#fff;
+            }
+        }
+        p{
+            text-align:center;
+            color:#fff;
+        }
+    }
+}

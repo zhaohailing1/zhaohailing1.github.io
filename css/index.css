@@ -1,0 +1,621 @@
+@charset "utf-8";
+/* line 3, index.less */
+body,
+html {
+  height: 100%;
+  min-width: 600px;
+}
+/* line 7, index.less */
+.fl {
+  float: left;
+}
+/* line 8, index.less */
+.fr {
+  float: right;
+}
+/* line 9, index.less */
+header {
+  min-width: 600px;
+  width: 100%;
+  height: 66px;
+  background: rgba(30, 20, 86, 0.1);
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 6;
+}
+/* line 19, index.less */
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+/* line 27, index.less */
+header h1 {
+  float: left;
+  font-size: 22px;
+  -font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+  line-height: 66px;
+}
+/* line 35, index.less */
+header #top-nav {
+  float: right;
+}
+/* line 37, index.less */
+header #top-nav li {
+  float: left;
+  width: 100px;
+  height: 66px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/* line 44, index.less */
+header #top-nav li div {
+  width: 100px;
+  height: 100%;
+  -webkit-transition: .6s all ease;
+          transition: .6s all ease;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 51, index.less */
+header #top-nav li div a {
+  display: block;
+  text-align: center;
+  line-height: 66px;
+  font-size: 18px;
+  color: #fff;
+}
+/* line 63, index.less */
+#dowebok .page1 {
+  background: url(../images/6.jpg) 50%;
+}
+/* line 65, index.less */
+#dowebok .page1 h3 {
+  position: absolute;
+  left: 50%;
+  top: -100%;
+  margin-left: -80px;
+  font-size: 36px;
+  color: #00e5ff;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+  z-index: 6;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 78, index.less */
+#dowebok .page1 h3 img {
+  width: 100%;
+  opacity: .8;
+}
+/* line 83, index.less */
+#dowebok .page1 .iceberg {
+  position: absolute;
+  right: 12%;
+  top: 36%;
+  opacity: 0;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 90, index.less */
+#dowebok .page1 .text {
+  position: absolute;
+  left: 0;
+  top: 46%;
+  width: 100%;
+  height: 300px;
+  z-index: 6;
+}
+/* line 97, index.less */
+#dowebok .page1 .text p {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+  -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+          transform: scale(0, 0);
+}
+/* line 103, index.less */
+#dowebok .page1 .text p:nth-child(1) {
+  -webkit-transition: .6s all ease;
+          transition: .6s all ease;
+}
+/* line 106, index.less */
+#dowebok .page1 .text p:nth-child(2) {
+  -webkit-transition: 1.2s all ease;
+          transition: 1.2s all ease;
+}
+/* line 109, index.less */
+#dowebok .page1 .text p:nth-child(3) {
+  -webkit-transition: 1.8s all ease;
+          transition: 1.8s all ease;
+}
+/* line 112, index.less */
+#dowebok .page1 .text p:nth-child(4) {
+  -webkit-transition: 2.4s all ease;
+          transition: 2.4s all ease;
+}
+/* line 116, index.less */
+#dowebok .page1 .bg1 {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  width: 164px;
+  height: 117px;
+  margin-left: 120px;
+  background-image: url(../images/bg82.png);
+  opacity: 0;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 127, index.less */
+#dowebok .page1 .bg2 {
+  position: absolute;
+  left: 50%;
+  bottom: 180px;
+  width: 70px;
+  height: 29px;
+  margin-left: -30px;
+  background-image: url(../images/bg83.png);
+  opacity: 0;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 138, index.less */
+#dowebok .page1 .bg3 {
+  position: absolute;
+  left: 50%;
+  bottom: 220px;
+  width: 43px;
+  height: 26px;
+  margin-left: -110px;
+  background-image: url(../images/bg84.png);
+  opacity: 0;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 152, index.less */
+#dowebok .active .bg1 {
+  bottom: 160px;
+  margin-left: 20px;
+  opacity: 1;
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+/* line 158, index.less */
+#dowebok .active .bg2 {
+  bottom: 290px;
+  margin-left: -130px;
+  opacity: 1;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+/* line 164, index.less */
+#dowebok .active .bg3 {
+  bottom: 320px;
+  margin-left: -210px;
+  opacity: 1;
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+/* line 170, index.less */
+#dowebok .active .iceberg {
+  opacity: 1;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+/* line 175, index.less */
+#dowebok h2 {
+  font-size: 36px;
+}
+/* line 178, index.less */
+#dowebok .page5 {
+  background: url(../images/5.jpg) 50%;
+}
+/* line 180, index.less */
+#dowebok .page5 h3 {
+  position: relative;
+  right: -50%;
+  top: -200%;
+  color: #fff;
+  text-align: right;
+  font-size: 36px;
+  z-index: 6;
+}
+/* line 187, index.less */
+#dowebok .page5 a {
+  width: 360px;
+  height: 187px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 192, index.less */
+#dowebok .page5 a span {
+  position: absolute;
+  left: -360px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 0, 80, 0.3);
+  text-align: center;
+  line-height: 187px;
+  font-size: 26px;
+  color: #fff;
+}
+/* line 205, index.less */
+#dowebok .page5 .dome {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*transform:translate(-50%, -50%);*/
+  margin-left: -180px;
+  margin-top: -93px;
+  z-index: 6;
+  -webkit-transition: .8s all ease;
+          transition: .8s all ease;
+  -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+          transform: scale(0, 0);
+}
+/* line 216, index.less */
+#dowebok .page5 .fp1 {
+  position: absolute;
+  left: -100%;
+  top: -200%;
+  z-index: 6;
+}
+/* line 222, index.less */
+#dowebok .page5 .fp2 {
+  position: absolute;
+  right: 100%;
+  bottom: -50%;
+  z-index: 6;
+}
+/* line 228, index.less */
+#dowebok .page5 p {
+  position: absolute;
+  left: -160%;
+  bottom: 120px;
+  margin: 18px 0;
+  font-size: 20px;
+  z-index: 6;
+  color: #fff;
+}
+/* line 238, index.less */
+#dowebok .page3 {
+  background: url(../images/9.jpg) 50%;
+}
+/* line 240, index.less */
+#dowebok .page3 h3 {
+  position: relative;
+  right: 0;
+  top: -300%;
+  color: #999;
+  text-align: center;
+  font-size: 36px;
+}
+/* line 246, index.less */
+#dowebok .page3 section {
+  float: left;
+  width: 33.33%;
+  position: absolute;
+  top: 55%;
+  margin-top: -200px;
+}
+/* line 253, index.less */
+#dowebok .page3 section .grid .hover {
+  width: 100%;
+  opacity: 1;
+}
+/* line 256, index.less */
+#dowebok .page3 section .grid .hover figcaption {
+  text-transform: none;
+}
+/* line 262, index.less */
+#dowebok .page3 section.hover1 {
+  left: -100%;
+}
+/* line 265, index.less */
+#dowebok .page3 section.hover2 {
+  left: 33.33%;
+  opacity: 0;
+}
+/* line 269, index.less */
+#dowebok .page3 section.hover3 {
+  right: -100%;
+}
+/* line 273, index.less */
+#dowebok .page4 {
+  background: url(../images/3.jpg) 50%;
+}
+/* line 275, index.less */
+#dowebok .page4 h3 {
+  position: relative;
+  right: -100%;
+  top: 15%;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+}
+/* line 281, index.less */
+#dowebok .page4 section {
+  float: left;
+  width: 33.33%;
+  position: absolute;
+  top: 55%;
+  margin-top: -200px;
+}
+/* line 288, index.less */
+#dowebok .page4 section .grid .hover {
+  width: 100%;
+  opacity: 1;
+}
+/* line 291, index.less */
+#dowebok .page4 section .grid .hover h2 {
+  font-size: 26px;
+}
+/* line 295, index.less */
+#dowebok .page4 section .grid .hover p p {
+  text-align: center;
+}
+/* line 302, index.less */
+#dowebok .page4 section.hover1 {
+  left: 0;
+  opacity: 0;
+}
+/* line 306, index.less */
+#dowebok .page4 section.hover2 {
+  left: 33.33%;
+  opacity: 0;
+}
+/* line 310, index.less */
+#dowebok .page4 section.hover3 {
+  right: 0;
+  opacity: 0;
+}
+/* line 315, index.less */
+#dowebok .page2 {
+  background: url(../images/7.jpg) 50%;
+}
+/* line 317, index.less */
+#dowebok .page2 h3 {
+  position: relative;
+  right: 0;
+  top: 15%;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+}
+/* line 322, index.less */
+#dowebok .page2 h3 span {
+  display: inline-block;
+  width: 0;
+  height: 3px;
+  -webkit-transition: 1s all ease;
+          transition: 1s all ease;
+  background: #05abe0;
+}
+/* line 330, index.less */
+#dowebok .page2 .imgs {
+  width: 698px;
+  height: 178px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 6;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/* line 338, index.less */
+#dowebok .page2 .imgs img {
+  -webkit-transition: 1s all ease;
+          transition: 1s all ease;
+  -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+          transform: scale(0, 0);
+}
+/* line 343, index.less */
+#dowebok .page2 .bg1 {
+  position: absolute;
+  bottom: -372px;
+  width: 100%;
+  height: 372px;
+  background: url(../images/bg41.png) 50% 0 no-repeat;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 351, index.less */
+#dowebok .page2 .bg2 {
+  position: absolute;
+  bottom: -449px;
+  width: 100%;
+  height: 449px;
+  background: url(../images/bg42.png) 50% 0 no-repeat;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 359, index.less */
+#dowebok .page2 .bg3 {
+  position: absolute;
+  bottom: -449px;
+  width: 100%;
+  height: 449px;
+  margin-bottom: -130px;
+  background: url(../images/bg43.png) 50% 0 no-repeat;
+  -webkit-transition: all 1s;
+          transition: all 1s;
+}
+/* line 369, index.less */
+#dowebok .active2 {
+  /*.bg2{
+            bottom: 15%;
+            right:18%;
+            transition-delay: 1.1s;
+        }*/
+}
+/* line 370, index.less */
+#dowebok .active2 .bg1 {
+  bottom: 15%;
+  right: 0;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+/* line 380, index.less */
+#dowebok .active2 .bg3 {
+  bottom: 15%;
+  right: 4%;
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+/* line 386, index.less */
+#dowebok .page6 {
+  background: url(../images/10.jpg) 50%;
+}
+/* line 388, index.less */
+#dowebok .page6 .author {
+  padding: 10% 120px 0;
+  text-align: center;
+}
+/* line 391, index.less */
+#dowebok .page6 .author a {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 397, index.less */
+#dowebok .page6 .author a img {
+  width: 100%;
+  height: 100%;
+}
+/* line 403, index.less */
+#dowebok .page6 .contactMe {
+  height: 46px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/* line 410, index.less */
+#dowebok .page6 .contactMe div {
+  width: 100%;
+  -webkit-transition: .6s all ease;
+          transition: .6s all ease;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 416, index.less */
+#dowebok .page6 .contactMe div h2 {
+  text-align: center;
+  line-height: 46px;
+}
+/* line 419, index.less */
+#dowebok .page6 .contactMe div h2 a {
+  color: #fff;
+}
+/* line 425, index.less */
+#dowebok .page6 h3 {
+  text-align: center;
+}
+/* line 427, index.less */
+#dowebok .page6 h3 span {
+  display: inline-block;
+  width: 200px;
+  height: 3px;
+  background: #00c853;
+  margin-bottom: 10px;
+}
+/* line 435, index.less */
+#dowebok .page6 .toContactMe {
+  text-align: center;
+  color: #eee;
+  font-size: 16px;
+  opacity: 0;
+  -webkit-transition: 1.5s all ease;
+          transition: 1.5s all ease;
+}
+/* line 442, index.less */
+#dowebok .page6 .Dream {
+  text-align: center;
+  font-size: 36px;
+  color: #eee;
+  margin-left: 100%;
+  -webkit-transition: 1.5s all ease;
+          transition: 1.5s all ease;
+  white-space: nowrap;
+}
+/* line 450, index.less */
+#dowebok .page6 .footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  border-top: 3px solid rgba(150, 200, 150, 0.5);
+  padding-top: 10px;
+}
+/* line 458, index.less */
+#dowebok .page6 .footer p {
+  text-align: center;
+  color: #eee;
+  font-size: 14px;
+  margin: 6px;
+  -webkit-transition: 1.2s all ease;
+          transition: 1.2s all ease;
+  white-space: nowrap;
+}
+/* line 465, index.less */
+#dowebok .page6 .footer p a {
+  color: #eee;
+}
+/* line 469, index.less */
+#dowebok .page6 .footer p:nth-child(1) {
+  -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+          transform: scale(0, 0);
+}
+/* line 472, index.less */
+#dowebok .page6 .footer p:nth-child(2) {
+  margin-left: -200%;
+}
+/* line 475, index.less */
+#dowebok .page6 .footer p:nth-child(3) {
+  margin-right: -200%;
+}
+/* line 483, index.less */
+#fp-nav ul li {
+  height: 21px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+/* line 487, index.less */
+#fp-nav ul li a {
+  /*float: right; width: 21px; height: 21px; color: #8F9DA4; text-decoration: none; text-align: right; background: url(../images/dot.png) 5px 5px no-repeat;*/
+}
+/* line 489, index.less */
+#fp-nav ul li a span {
+  -webkit-transition: .6s all ease;
+          transition: .6s all ease;
+  -display: none;
+  border-color: #fff;
+}
+/* line 496, index.less */
+#fp-nav ul li a.active span {
+  background: #fff;
+}
+/*# sourceMappingURL=index.css.map */

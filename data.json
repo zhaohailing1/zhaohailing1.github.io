@@ -1,0 +1,246 @@
+[{
+	"type": 1,
+	"bannerData": ["img/banner1.png","img/banner2.png","img/banner3.png"],
+	"articleData": [{
+		"title": "金发美女+比基尼在零重力下的诱惑",
+		"nikename": "潇潇",
+		"time": "5分钟前",
+		"comments": 2
+	}, {
+		"title": "三星入门4G手机续航测试：秒掉Nexus5",
+		"nikename": "小呆",
+		"time": "2小时前",
+		"comments": 16
+	}, {
+		"title": "PSC《生化奇兵》到底有木有了？",
+		"nikename": "黄栋",
+		"time": "2小时前",
+		"comments": 6
+	}, {
+		"title": "金发美女苏宁架构大调：设八大指数独立公司",
+		"nikename": "小路",
+		"time": "2小时前",
+		"comments": 5
+	}, {
+		"title": "百度乳羊毛继续：一分钱换迅雷白金会员",
+		"nikename": "宝鹏",
+		"time": "3小时前",
+		"comments": 21
+	}, {
+		"imgarticleData": [{
+				"src": "img/item1.png",
+				"title": "触目惊心 揭晓iPhone翻新全过程"
+			},
+			{
+				"src": "img/item2.png",
+				"title": "东芝消费级5TB硬盘突然上市，真便宜"
+			}
+		]
+	}, {
+		"title": "真正有生命的鞋子：活体细胞合成材料制成",
+		"nikename": "潇潇",
+		"time": "5小时前",
+		"comments": 2
+	}, {
+		"title": "三星入门4G手机续航测试：秒掉Nexus5",
+		"nikename": "小路",
+		"time": "5小时前",
+		"comments": 16
+	}]
+},{
+	"type": 2,
+	"bannerData": ["img/banner3.png","img/banner1.png","img/banner2.png"],
+	"articleData": [{
+		"title": "今年千万别买笔记本、SSD！这是真相",
+		"nikename": "皖南",
+		"time": "一小时前",
+		"comments": 16
+	}, {
+		"title": "2340元！国产彪悍4K+运动相机海外亮相",
+		"nikename": "上万文Q",
+		"time": "2小时前",
+		"comments": 4
+	}, {
+		"title": "快出手！DDR4内存缺货大涨价：原因竟是…",
+		"nikename": "皖南",
+		"time": "2小时前",
+		"comments": 17
+	}, {
+		"title": "百度联手ARM发首款人工智能芯片！逆天了",
+		"nikename": "李根",
+		"time": "4小时前",
+		"comments": 27
+	}, {
+		"title": "天字一二号主板血拼！Intel笑了",
+		"nikename": "宝鹏",
+		"time": "4小时前",
+		"comments": 21
+	}, {
+		"imgarticleData": [{
+				"src": "img/item1.png",
+				"title": "触目惊心 揭晓iPhone翻新全过程"
+			},
+			{
+				"src": "img/item2.png",
+				"title": "东芝消费级5TB硬盘突然上市，真便宜"
+			}
+		]
+	}, {
+		"title": "点错科技树！这东西能让日本人看到声音",
+		"nikename": "小纯",
+		"time": "7小时前",
+		"comments": 2
+	}, {
+		"title": "129元！小米随身听歌神器登场：帅",
+		"nikename": "上万文Q",
+		"time": "5小时前",
+		"comments": 16
+	}]
+},{
+	"type": 3,
+	"bannerData": ["img/banner2.png","img/banner1.png","img/banner3.png"],
+	"articleData": [{
+		"title": "推荐更新！《快科技》安卓版3.06版发布",
+		"nikename": "随心",
+		"time": "5分钟前",
+		"comments": 2
+	}, {
+		"title": "点错科技树！这东西能让日本人看到声音",
+		"nikename": "弱鸡",
+		"time": "2小时前",
+		"comments": 16
+	}, {
+		"title": "小米米家App众筹新品曝光：如坐过山车？",
+		"nikename": "黄栋",
+		"time": "2小时前",
+		"comments": 6
+	}, {
+		"title": "苹果重磅新品突然曝光：要掀起一场革命！",
+		"nikename": "小路",
+		"time": "2小时前",
+		"comments": 5
+	}, {
+		"title": "专业运动模式破红海 华为WATCH 2评测",
+		"nikename": "宝鹏",
+		"time": "3小时前",
+		"comments": 21
+	}, {
+		"imgarticleData": [{
+				"src": "img/item1.png",
+				"title": "触目惊心 揭晓iPhone翻新全过程"
+			},
+			{
+				"src": "img/item2.png",
+				"title": "东芝消费级5TB硬盘突然上市，真便宜"
+			}
+		]
+	}, {
+		"title": "真正有生命的鞋子：活体细胞合成材料制成",
+		"nikename": "潇潇",
+		"time": "5小时前",
+		"comments": 2
+	}, {
+		"title": "三星入门4G手机续航测试：秒掉Nexus5",
+		"nikename": "小路",
+		"time": "5小时前",
+		"comments": 16
+	}]
+},{
+	"type": 4,
+	"bannerData": ["img/banner2.png","img/banner3.png","img/banner1.png"],
+	"articleData": [{
+		"title": "想买水货三星S8省钱？这下可是倒霉了",
+		"nikename": "潇潇",
+		"time": "5分钟前",
+		"comments": 2
+	}, {
+		"title": "安卓9.0首次曝光！三大中国厂商争首发",
+		"nikename": "小呆",
+		"time": "2小时前",
+		"comments": 16
+	}, {
+		"title": "微软定制版三星S8开卖：开机后给跪了……？",
+		"nikename": "黄栋",
+		"time": "2小时前",
+		"comments": 6
+	}, {
+		"title": "8年了 这个大国终迎来iPhone：价格肝颤！",
+		"nikename": "小路",
+		"time": "2小时前",
+		"comments": 5
+	}, {
+		"title": "苹果新iPad完全拆解：连X光都用上了",
+		"nikename": "宝鹏",
+		"time": "3小时前",
+		"comments": 21
+	}, {
+		"imgarticleData": [{
+				"src": "img/item1.png",
+				"title": "触目惊心 揭晓iPhone翻新全过程"
+			},
+			{
+				"src": "img/item2.png",
+				"title": "东芝消费级5TB硬盘突然上市，真便宜"
+			}
+		]
+	}, {
+		"title": "梦幻神机苦等N年！OPPO Find 9这回真来了",
+		"nikename": "潇潇",
+		"time": "5小时前",
+		"comments": 2
+	}, {
+		"title": "首款开卖骁龙835旗舰备货恐怖！彻底服了",
+		"nikename": "小路",
+		"time": "5小时前",
+		"comments": 16
+	}]
+},{
+	"type": 5,
+	"bannerData": ["img/banner3.png","img/banner2.png","img/banner1.png"],
+	"articleData": [{
+		"title": "推荐更新！《快科技》安卓版3.06版发布",
+		"nikename": "潇潇",
+		"time": "5分钟前",
+		"comments": 2
+	}, {
+		"title": "腾讯推出世界最强人脸识别：准确率99.8%",
+		"nikename": "小呆",
+		"time": "2小时前",
+		"comments": 16
+	}, {
+		"title": "GPS好可怕：大脑竟然都退化了！",
+		"nikename": "黄栋",
+		"time": "2小时前",
+		"comments": 6
+	}, {
+		"title": "全球首座竹子基站亮相：抗风210公里/小时",
+		"nikename": "小路",
+		"time": "2小时前",
+		"comments": 5
+	}, {
+		"title": "不可思议！外星人居然在这样监视人类....",
+		"nikename": "宝鹏",
+		"time": "3小时前",
+		"comments": 21
+	}, {
+		"imgarticleData": [{
+				"src": "img/item1.png",
+				"title": "触目惊心 揭晓iPhone翻新全过程"
+			},
+			{
+				"src": "img/item2.png",
+				"title": "东芝消费级5TB硬盘突然上市，真便宜"
+			}
+		]
+	}, {
+		"title": "克隆猪首次亮相深圳 动作几乎一模一样",
+		"nikename": "潇潇",
+		"time": "5小时前",
+		"comments": 2
+	}, {
+		"title": "国之重器！中国大飞机第三剑客要首飞",
+		"nikename": "小路",
+		"time": "5小时前",
+		"comments": 16
+	}]
+}]

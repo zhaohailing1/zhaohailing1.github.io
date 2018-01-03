@@ -1,0 +1,209 @@
+/* line 1, bootstrap.less */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5 none no-repeat fixed center top;
+}
+/* line 6, bootstrap.less */
+#index {
+  margin: 20px auto ;
+  background: #fff;
+  max-width: 1300px;
+  border-radius: 5px;
+}
+/* line 11, bootstrap.less */
+#index nav {
+  padding: 20px 0;
+  background: #fff;
+}
+/* line 15, bootstrap.less */
+#index nav .navbar-header a {
+  font-size: 32px;
+  color: #000;
+}
+/* line 18, bootstrap.less */
+#index nav .navbar-header a img {
+  width: 25%;
+  margin-right: 10px;
+}
+/* line 26, bootstrap.less */
+#index nav .collapse .nav a {
+  padding: 10px 13px;
+  white-space: nowrap;
+}
+/* line 31, bootstrap.less */
+#index nav .collapse .nav .z-active a {
+  color: #f90;
+}
+/* line 39, bootstrap.less */
+#index .container .z-left {
+  margin-left: -10px;
+}
+/* line 41, bootstrap.less */
+#index .container .z-left .z-tab {
+  overflow: hidden;
+}
+/* line 44, bootstrap.less */
+#index .container .z-left ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 47, bootstrap.less */
+#index .container .z-left ul li {
+  list-style: none;
+  margin: 30px 0;
+  padding-bottom: 30px;
+}
+/* line 52, bootstrap.less */
+#index .container .z-left ul li .media .z-img {
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 36%;
+}
+/* line 58, bootstrap.less */
+#index .container .z-left ul li .media .z-text {
+  padding-left: 16px;
+}
+/* line 60, bootstrap.less */
+#index .container .z-left ul li .media .z-text h3 {
+  margin-bottom: 10px;
+}
+/* line 63, bootstrap.less */
+#index .container .z-left ul li .media .z-text p {
+  height: 130px;
+}
+/* line 66, bootstrap.less */
+#index .container .z-left ul li .media .z-text a {
+  text-decoration: none;
+}
+/* line 75, bootstrap.less */
+#index .container .z-right {
+  margin-left: 10px;
+}
+/* line 77, bootstrap.less */
+#index .container .z-right .z-input {
+  padding: 15px 10px;
+  background: #eee;
+  margin-bottom: 20px;
+}
+/* line 81, bootstrap.less */
+#index .container .z-right .z-input input {
+  height: 38px;
+}
+/* line 84, bootstrap.less */
+#index .container .z-right .z-input button {
+  height: 38px;
+}
+/* line 88, bootstrap.less */
+#index .container .z-right .author {
+  background: #eee;
+}
+/* line 90, bootstrap.less */
+#index .container .z-right .author .author-img {
+  width: 200px;
+  height: 200px;
+}
+/* line 93, bootstrap.less */
+#index .container .z-right .author .author-img img {
+  width: 100%;
+  height: 100%;
+}
+/* line 98, bootstrap.less */
+#index .container .z-right .author h3 {
+  margin: 0;
+  height: 42px;
+  line-height: 42px;
+  margin-bottom: 10px;
+}
+/* line 105, bootstrap.less */
+#index .container .z-right .articles {
+  background: #eee;
+}
+/* line 107, bootstrap.less */
+#index .container .z-right .articles .z-title {
+  height: 42px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+/* line 111, bootstrap.less */
+#index .container .z-right .articles .z-title h3 {
+  margin: 0;
+}
+/* line 115, bootstrap.less */
+#index .container .z-right .articles ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 118, bootstrap.less */
+#index .container .z-right .articles ul li {
+  list-style: none;
+  max-width: 99.8%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 124, bootstrap.less */
+#index .container .z-right .articles ul li .z-content {
+  padding: 0 10px;
+}
+/* line 126, bootstrap.less */
+#index .container .z-right .articles ul li .z-content .z-img {
+  width: 56px;
+  height: 42px;
+  overflow: hidden;
+}
+/* line 130, bootstrap.less */
+#index .container .z-right .articles ul li .z-content .z-img img {
+  width: 110%;
+}
+/* line 134, bootstrap.less */
+#index .container .z-right .articles ul li .z-content .z-img2 {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+/* line 138, bootstrap.less */
+#index .container .z-right .articles ul li .z-content .z-img2 img {
+  width: 110%;
+  height: 90%;
+}
+/* line 143, bootstrap.less */
+#index .container .z-right .articles ul li .z-content .z-text {
+  font-size: 12px;
+}
+/* line 145, bootstrap.less */
+#index .container .z-right .articles ul li .z-content .z-text h6 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+/* line 152, bootstrap.less */
+#index .container .z-right .articles ul :nth-last-child(1) {
+  border-bottom: none;
+}
+/* line 159, bootstrap.less */
+#index footer {
+  width: 100%;
+  height: 140px;
+  background: #474747 none repeat center top;
+}
+/* line 163, bootstrap.less */
+#index footer div {
+  width: 100%;
+  height: 106px;
+  line-height: 106px;
+  text-align: center;
+  padding-top: 16px;
+}
+/* line 169, bootstrap.less */
+#index footer div span {
+  font-size: 26px;
+  color: #fff;
+}
+/* line 174, bootstrap.less */
+#index footer p {
+  text-align: center;
+  color: #fff;
+}
+/*# sourceMappingURL=bootstrap.css.map */
